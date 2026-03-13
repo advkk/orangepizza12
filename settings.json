@@ -1,13 +1,13 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "imgonnacream",
+    "username": "orangepizza12",
     "password": "",
-    "type": "offline"
+    "type": "online"
   },
   "server": {
-    "ip": "7L_SMP_is_real.aternos.me",
-    "port": 62213,
+    "ip": "lifestealoak-iPgd.aternos.me",
+    "port": 47218,
     "version": "",
     "try-creative": false
   },
@@ -27,13 +27,11 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
+      "enabled": false,
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        ""
       ]
     },
     "chat-log": true,
@@ -41,13 +39,13 @@
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000,
     "periodic-rejoin": {
-      "enabled": false,
+      "enabled": true,
       "min-interval": 20,
       "max-interval": 60
     }
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
@@ -87,6 +85,6 @@
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
