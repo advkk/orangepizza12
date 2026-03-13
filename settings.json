@@ -45,10 +45,10 @@
     }
   },
   "movement": {
-    "enabled": false,
+    "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
+      "radius": 100,
       "speed": 3000
     },
     "look-around": {
